@@ -13,7 +13,7 @@ $(function() {
       $('.form').css('display', 'none');
       $('body').append('<h1>Form submitted successfully</h1>')
     } else {
-      $('.form__name-error').css('visibility', 'visible');
+      $('.form__error').css('visibility', 'visible');
     }
   });
 });
